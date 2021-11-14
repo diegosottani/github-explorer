@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"], //quais bibliotecas itão utilizar
+    "jsx": "react-jsx", // está utilizando JSX com TS
+    "moduleResolution": "node",
+    "resolveJsonModule": true, // possibilita importar arquivos JSON
+    "allowJs": true, // pode ter arquivos JS e TS - proprio para migração de JS ->TS
+    "noEmit": true, // ao executar build, não emite o código da aplicação   
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // modo strict do JS
+    "skipLibCheck": true
+  },
+  "include": ["src"] // onde o código da aplicação estará
+}
